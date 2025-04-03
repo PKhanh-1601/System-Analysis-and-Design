@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    background: white;
+    padding: 60px;
+}
+
+.form-container, .product-container {
+    background: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    height: 100%;
+}
+
+.form-container {
+    width: 60%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+input {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.two-columns {
+    display: flex;
+    gap: 30px;
+}
+
+.two-columns .form-group {
+    width: 100%;
+}
+
+.product-container {
+    width: 35%;
+    background-color: #fff5f8;
+    border: 1px solid #ffccd5;
+    padding: 30px 50px 10px 50px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+
+.product-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 8px;
+    margin-bottom: -1px;
+}
+
+.product-container h2 {
+    margin-bottom: 80px;
+}
+
+.product-item p {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.product-item strong {
+    font-size: 22px;
+    color: #ff4081;
+}
+
+.product-item img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.order-button {
+    background-color: #ff4081;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.order-button:hover {
+    background-color: #e73370;
+}
+
+.quantity-input {
+    width: 50px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.summary {
+    margin-top: 40px;
+    font-size: 24px;
+}
+
+.summary p {
+    margin-bottom: 10px;
+}
+
+.highlight {
+    color: #ff4081;
+    font-weight: bold;
+}
+
+.total {
+    font-size: 26px;
+    font-weight: bold;
+}

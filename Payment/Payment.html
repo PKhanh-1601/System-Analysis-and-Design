@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <h2>Shipping Address</h2>
+            <div class="two-columns">
+                <div class="form-group">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" placeholder="e.g., John">
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" placeholder="e.g., Doe">
+                </div>
+            </div>
+            <div class="two-columns">
+                <div class="form-group">
+                    <label for="state">State/Province</label>
+                    <input type="text" id="state" placeholder="e.g., California">
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" placeholder="e.g., Los Angeles">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address</label>
+                <input type="text" id="address" placeholder="e.g., 123 Main St">
+            </div>
+            <div class="two-columns">
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="text" id="phone" placeholder="e.g., +1 234 567 890">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="e.g., john.doe@example.com">
+                </div>
+            </div>
+            <button class="order-button">Order</button>
+        </div>
+        <div class="product-container">
+            <h2>Product List</h2>
+            <div class="product-item">
+                <img src="capybara.jpg" alt="Capybara Plush">
+                <div>
+                    <p>Super soft Capybara plush</p>
+                    <strong>125,900đ</strong>
+                </div>
+                <input type="number" class="quantity-input" value="1" min="1">
+            </div>
+            <div class="product-item">
+                <img src="bunny.jpg" alt="Bunny Plush">
+                <div>
+                    <p>Jellycat Bunny Rabbit</p>
+                    <strong>48,000đ</strong>
+                </div>
+                <input type="number" class="quantity-input" value="1" min="1">
+            </div>
+            <hr>
+            <div class="summary">
+                <p><strong>Subtotal:</strong> <span class="highlight">173,900đ</span></p>
+                <p><strong>Shipping Fee:</strong> <span class="highlight">Free</span></p>
+                <p class="total">Total: <span class="highlight">173,900đ</span></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
